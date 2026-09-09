@@ -1,0 +1,27 @@
+name: Deploy tokenfree content to VPS
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.VPS_IP }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Sync content to VPS
+        run: |
+          rsync -avz --delete             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"             content/             ${{ secrets.VPS_USER }}@${{ secrets.VPS_IP }}:${{ secrets.VPS_TARGET_DIR }}/
+
+      - name: Trigger Hugo rebuild on VPS
+        run: |
+          ssh -i ~/.ssh/deploy_key             -o StrictHostKeyChecking=no             -o UserKnownHostsFile=/dev/null             ${{ secrets.VPS_USER }}@${{ secrets.VPS_IP }}             "cd /root/hugo && ./deploy.sh"
