@@ -18,15 +18,15 @@ TokenFree 是一个致力于整理和分享全球免费/低成本 AI API Token �
 ### 🔑 Token 渠道
 | 提供商 | 模型 | 状态 |
 |--------|------|------|
-| [OpenRouter](https://tokenfree.news/tokens/openrouter/) | 多模型聚合 | ✅ |
-| [SiliconFlow](https://tokenfree.news/tokens/siliconflow/) | 中文模型 | ✅ |
-| [Groq](https://tokenfree.news/tokens/groq/) | Llama 系列 | ✅ |
-| [Google Gemini](https://tokenfree.news/tokens/google-gemini/) | Gemini 系列 | ✅ |
-| [Cerebras](https://tokenfree.news/tokens/cerebras/) | 推理加速 | ✅ |
-| [Mistral](https://tokenfree.news/tokens/mistral/) | Mistral 系列 | ✅ |
-| [BigModel GLM](https://tokenfree.news/tokens/bigmodel-glm/) | 智谱 GLM | ✅ |
-| [NVIDIA NIM](https://tokenfree.news/tokens/nvidia-nim/) | NVIDIA 模型 | ✅ |
-| [Cloudflare Workers AI](https://tokenfree.news/tokens/cloudflare-workers-ai/) | 边缘推理 | ✅ |
+| [OpenRouter](https://tokenfree.news/resources/openrouter/) | 多模型聚合 | ✅ |
+| [SiliconFlow](https://tokenfree.news/resources/siliconflow/) | 中文模型 | ✅ |
+| [Groq](https://tokenfree.news/resources/groq/) | Llama 系列 | ✅ |
+| [Google Gemini](https://tokenfree.news/resources/google-gemini/) | Gemini 系列 | ✅ |
+| [Cerebras](https://tokenfree.news/resources/cerebras/) | 推理加速 | ✅ |
+| [Mistral](https://tokenfree.news/resources/mistral/) | Mistral 系列 | ✅ |
+| [BigModel GLM](https://tokenfree.news/resources/bigmodel-glm/) | 智谱 GLM | ✅ |
+| [NVIDIA NIM](https://tokenfree.news/resources/nvidia-nim/) | NVIDIA 模型 | ✅ |
+| [Cloudflare Workers AI](https://tokenfree.news/resources/cloudflare-workers-ai/) | 边缘推理 | ✅ |
 
 ## 技术架构
 
@@ -87,7 +87,7 @@ hugo server -D
 
 ### 添加新 Token 渠道
 
-在 `content/tokens/` 目录下创建新的 `.md` 文件，格式如下：
+在 `content/resources/` 目录下创建新的 `.md` 文件，格式如下：
 
 ```yaml
 ---

@@ -23,15 +23,15 @@ aliases:
 ### 🔑 API Token 渠道
 | 渠道 | 提供商 | 特点 |
 |------|--------|------|
-| [OpenRouter](/tokens/openrouter/) | OpenRouter | 多模型聚合，一站式调用 |
-| [SiliconFlow](/tokens/siliconflow/) | 硅基流动 | 中文模型优化 |
-| [Groq](/tokens/groq/) | Groq | 超高速推理 |
-| [Google Gemini](/tokens/google-gemini/) | Google | Gemini 系列 |
-| [Cerebras](/tokens/cerebras/) | Cerebras | 专用推理加速 |
-| [Mistral](/tokens/mistral/) | Mistral AI | 欧洲开源模型 |
-| [BigModel GLM](/tokens/bigmodel-glm/) | 智谱 AI | 中文 GLM 系列 |
-| [NVIDIA NIM](/tokens/nvidia-nim/) | NVIDIA | GPU 加速推理 |
-| [Cloudflare Workers AI](/tokens/cloudflare-workers-ai/) | Cloudflare | 边缘节点推理 |
+| [OpenRouter](/resources/openrouter/) | OpenRouter | 多模型聚合，一站式调用 |
+| [SiliconFlow](/resources/siliconflow/) | 硅基流动 | 中文模型优化 |
+| [Groq](/resources/groq/) | Groq | 超高速推理 |
+| [Google Gemini](/resources/google-gemini/) | Google | Gemini 系列 |
+| [Cerebras](/resources/cerebras/) | Cerebras | 专用推理加速 |
+| [Mistral](/resources/mistral/) | Mistral AI | 欧洲开源模型 |
+| [BigModel GLM](/resources/bigmodel-glm/) | 智谱 AI | 中文 GLM 系列 |
+| [NVIDIA NIM](/resources/nvidia-nim/) | NVIDIA | GPU 加速推理 |
+| [Cloudflare Workers AI](/resources/cloudflare-workers-ai/) | Cloudflare | 边缘节点推理 |
 
 ### 🔍 功能
 - [站内搜索](/search/) — 快速查找 Token 渠道和文章
