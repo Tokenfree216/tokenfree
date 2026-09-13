@@ -26,13 +26,13 @@ Cline 现在提供一些免费模型，不过使用的人并不多；每个 agen
 
 部署方式：把代码仓库告诉 AI，让它将项目部署到指定端口即可。
 
-![](/images/UXdCbX0zzoVecexVkvJchO86nxh.png)
+![](./UXdCbX0zzoVecexVkvJchO86nxh.png)
 
 部署完成后，直接通过 OAuth 登录，有 Google 账号即可直接登录，按提示操作即可。
 
 登录后新建一个 Key，就可以愉快地使用免费模型了。
 
-![](/images/YeIAbPcHvodBnkxH30xc6kNyn5e.png)
+![](./YeIAbPcHvodBnkxH30xc6kNyn5e.png)
 
 可用的模型：
 
@@ -54,7 +54,7 @@ stepfun/step-3.7-flash
 z-ai/glm-5.3-flash
 ```
 
-![](/images/UMRUbs1SQoHScfxy8Ahce2vknJf.png)
+![](./UMRUbs1SQoHScfxy8Ahce2vknJf.png)
 
 据说 muse-spark-1.3-contributor 非常强大，大家可以体验体验。
 
